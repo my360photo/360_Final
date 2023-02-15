@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" apprev="18116" appversion="6.1.15">
+  <input height="641" leveltilesize="510" levelbias="0.400" levelingroll="0" width="641" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+    <level height="641" preload="0" width="641" predecode="0"/>
+    <level height="320" preload="1" width="320" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" tilt="0" pan="0" fov="70"/>
+    <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+    <min tilt="-56.3277" pan="-180" fovpixel="2"/>
+    <max fovstereographic="270" tilt="56.3277" fovfisheye="360" pan="180" fov="120"/>
+  </view>
+  <userdata description="" copyright="" info="" nodeid="node1" customnodeid="" source="" title="" tags="Endangered Species" heading="0" latitude="" author="" longitude="" comment="" datetime=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label height="20" borderalpha="1" background="1" bordercolor="0x000000" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" border="1"/>
+    <polystyle borderalpha="1" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+    <hotspot skinid="ht_image" description="There are less than 7,000 Hyacinth Macaw that exist in the wild, while three related species are believed to be extinct" url="images/Macaw POPUP PNG.png" customimage="media/Macaw Lighter Blue PNG.png" id="Hyacinth Macaw" target="" tilt="31.74" title="Hyacinth Macaw" customimageheight="116" distance3D="662.943" use3D="0" pan="-102.18" customimagewidth="116" fov="10"/>
+    <hotspot skinid="ht_image" description="" url="images/Golden Lion Tamarin POPUP PNG.png" customimage="media/Tamerin PNG Green.png" id="Point01" target="" tilt="29.76" title="Golden Lion Tamarin" customimageheight="84" distance3D="788.674" use3D="0" pan="-293.07" customimagewidth="138" fov="10"/>
+    <hotspot skinid="ht_image" description="" url="images/Jaguar POPUP PNG.png" customimage="media/Jaguar PSD Blue.png" id="Point02" target="" tilt="-10.7" title="Jaguar" customimageheight="165" distance3D="548.643" use3D="0" pan="-264.15" customimagewidth="96" fov="10"/>
+    <hotspot skinid="ht_image" description="" url="images/Dart Frog POPUP PNG.png" customimage="media/Dart From PNG.png" id="Point03" target="" tilt="-16.54" title="Poison Dart Frog" customimageheight="74" distance3D="405.767" use3D="0" pan="-208.19" customimagewidth="71" fov="10"/>
+    <hotspot skinid="ht_image" description="" url="images/Uakari Monkey POPUP PNG.png" customimage="media/Uakari Monkey PNG.png" id="Point04" target="" tilt="28.11" title="Uakari Monkey" customimageheight="37" distance3D="382.907" use3D="0" pan="-341.92" customimagewidth="67" fov="10"/>
+    <hotspot skinid="ht_image" description="" url="images/Tapir POPUP PNG.png" customimage="media/tapir PNG Blue.png" id="Point05" target="" tilt="-18.99" title="South American Tapir" customimageheight="174" distance3D="1165.87" use3D="0" pan="-98.97" customimagewidth="204" fov="10"/>
+  </hotspots>
+  <media>
+    <sound nodechangekeep="0" loop="1" startmutedmobile="0" id="Element01" mode="5" tilt="-3.370" field="90.000" pansize="11.000" pan="-348.450" level="0.300" tiltsize="10.000" ambientlevel="0.400">
+      <source url="media/13725__reinsamba__nightbird-amazonas-close.mp3"/>
+    </sound>
+    <sound nodechangekeep="0" loop="1" startmutedmobile="0" id="Element02" mode="5" tilt="-0.720" field="90.000" pansize="11.000" pan="-204.260" level="0.300" tiltsize="10.000" ambientlevel="0.400">
+      <source url="media/13725__reinsamba__nightbird-amazonas-close.mp3"/>
+    </sound>
+  </media>
+  <transition zoomspeed="2" blendtime="1" zoomin="0" zoomafterinfov="90" softedge="0" type="crossdissolve" zoomafteroutfov="20" blendcolor="0x000000" zoomfov="20" zoomout="0" zoomoutpause="1" enabled="1"/>
+  <autorotate speed="0.100" useanimation="0" nodedelay="0.00" delay="1.00" noderandom="1" startloaded="0" enabled="1" nodefilter="" returntohorizon="5.000"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextvr="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" lockedwheel="0" invertcontrol="1"/>
+</panorama>
